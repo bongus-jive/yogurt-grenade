@@ -1,0 +1,25 @@
+{
+  "projectileName" : "pat_yogurtbombp",
+  "physics" : "grenade",
+  "bounces" : 1,
+  "timeToLive" : 4,
+  "image" : "yogurtbombp.png",
+  "animationCycle" : 1,
+  "lightColor" : [105, 64, 0],
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+    },
+		{
+      "action" : "liquid", 
+      "liquid" : "pat_yogurt",
+			"quantity" : 6
+    }
+  ],
+  "power" : 60,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -8], [4, -4], [6, 0], [4, 4], [0, 8], [-4, 4] ]
+}

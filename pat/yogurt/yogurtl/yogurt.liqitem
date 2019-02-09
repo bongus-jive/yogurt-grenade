@@ -1,0 +1,10 @@
+{
+  "itemName" : "pat_lyogurt",
+  "rarity" : "Legendary",
+  "category" : "liquid",
+  "inventoryIcon" : "yogurt.png",
+  "shortdescription" : "Yogurt",
+  "description" : "mmm",
+
+  "liquid" : "pat_yogurt"
+}
