@@ -1,9 +1,9 @@
 {
-  "projectileName" : "pat_yogurtbombp",
+  "projectileName" : "pat_yogurtbomb",
   "physics" : "grenade",
   "bounces" : 1,
   "timeToLive" : 4,
-  "image" : "yogurtbombp.png",
+  "image" : "/pat/yogurt/yogurtbomb.png",
   "animationCycle" : 1,
   "lightColor" : [105, 64, 0],
   "frameNumber" : 1,
