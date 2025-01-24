@@ -1,6 +1,6 @@
 {
   "input": [
-    { "item": "bomb", "count": 10 },
+    { "item": "volatilepowder", "count": 2 },
     { "item": "pat_yogurt", "count": 1 }
   ],
   "output": { "item": "pat_yogurtbomb", "count": 10 },
