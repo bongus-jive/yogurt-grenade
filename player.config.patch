@@ -1,4 +1,4 @@
 [
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value" : { "item" : "pat_yogurtbomb" } },
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value" : { "item" : "pat_yogurt" } }
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "pat_yogurtbomb" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "pat_yogurt" } }
 ]

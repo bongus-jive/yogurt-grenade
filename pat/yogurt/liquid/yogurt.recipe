@@ -1,8 +1,8 @@
 {
-  "input" : [
-    { "item" : "milk", "count" : 1 },
-    { "item" : "sugar", "count" : 1 }
+  "input": [
+    { "item": "milk", "count": 1 },
+    { "item": "sugar", "count": 1 }
   ],
-  "output" : { "item" : "pat_yogurt", "count" : 2 },
-  "groups" : [ "craftingfood", "drinks" ]
+  "output": { "item": "pat_yogurt", "count": 2 },
+  "groups": [ "craftingfood", "drinks" ]
 }

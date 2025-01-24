@@ -1,29 +1,29 @@
 {
-  "itemName" : "pat_yogurtbomb",
-  "price" : 50,
-  "rarity" : "Legendary",
-  "category" : "throwableItem",
-  "inventoryIcon" : "yogurtbomb.png",
-  "image" : "yogurtbomb.png",
-  "shortdescription" : "Yogurt Grenade",
-  "description" : "slurp",
+  "itemName": "pat_yogurtbomb",
+  "price": 50,
+  "rarity": "Legendary",
+  "category": "throwableItem",
+  "inventoryIcon": "yogurtbomb.png",
+  "image": "yogurtbomb.png",
+  "shortdescription": "Yogurt Grenade",
+  "description": "slurp",
 
-  "ammoUsage" : 1,
+  "ammoUsage": 1,
 
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.2,
+  "edgeTrigger": true,
+  "windupTime": 0.0,
+  "cooldown": 0.2,
 
-  "projectileType" : "pat_yogurtbomb",
-  "projectileConfig" : {
-    "speed" : 45,
-    "power" : 0,
-    "periodicActions" : [
+  "projectileType": "pat_yogurtbomb",
+  "projectileConfig": {
+    "speed": 45,
+    "power": 0,
+    "periodicActions": [
       {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": [ "/sfx/projectiles/throw_item.ogg" ]
       }
     ]
   }

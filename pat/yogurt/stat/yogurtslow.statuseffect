@@ -1,9 +1,9 @@
 {
-  "name" : "pat_yogurtslow",
-  "effectConfig" : {},
-  "defaultDuration" : 3,
-  "scripts" : ["yogurtslow.lua"],
-  "animationConfig" : "yogurtslow.animation",
-  "label" : "yogurted",
-  "icon" : "yogurtslow.png"
+  "name": "pat_yogurtslow",
+  "effectConfig": { },
+  "defaultDuration": 3,
+  "scripts": [ "yogurtslow.lua" ],
+  "animationConfig": "yogurtslow.animation",
+  "label": "yogurted",
+  "icon": "yogurtslow.png"
 }
