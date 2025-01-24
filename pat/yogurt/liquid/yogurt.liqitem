@@ -5,6 +5,7 @@
   "inventoryIcon": "yogurt.png",
   "shortdescription": "Yogurt",
   "description": "mmm",
+  "learnBlueprintsOnPickup": [ "pat_yogurtbomb" ],
 
   "liquid": "pat_yogurt"
 }
