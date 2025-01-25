@@ -3,7 +3,7 @@
   "physics": "grenade",
   "bounces": 1,
   "timeToLive": 4,
-  "image": "/pat/yogurt/yogurtbomb.png",
+  "image": "yogurtbomb.png",
   "animationCycle": 1,
   "lightColor": [ 105, 64, 0 ],
   "frameNumber": 1,
