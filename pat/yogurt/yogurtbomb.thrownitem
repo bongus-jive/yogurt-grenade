@@ -3,7 +3,7 @@
   "price": 50,
   "rarity": "Legendary",
   "category": "throwableItem",
-  "inventoryIcon": "yogurtbomb.png",
+  "inventoryIcon": "yogurtbombicon.png",
   "image": "yogurtbomb.png",
   "shortdescription": "Yogurt Grenade",
   "description": "slurp",
