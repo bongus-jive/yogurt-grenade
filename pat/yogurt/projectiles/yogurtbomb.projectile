@@ -1,12 +1,16 @@
 {
   "projectileName": "pat_yogurtbomb",
-  "physics": "grenade",
-  "bounces": 1,
-  "timeToLive": 4,
   "image": "yogurtbomb.png",
-  "animationCycle": 1,
-  "lightColor": [ 105, 64, 0 ],
-  "frameNumber": 1,
+  "timeToLive": 4,
+  "bounces": 1,
+  "orientationLocked": true,
+  "flippable": false,
+  "physics": "grenade",
+
+  "damageType": "NoDamage",
+  "damageKind": "default",
+  "damagePoly": [ [ -6, 0 ], [ -4, -4 ], [ 0, -8 ], [ 4, -4 ], [ 6, 0 ], [ 4, 4 ], [ 0, 8 ], [ -4, 4 ] ],
+
   "actionOnReap": [
     {
       "action": "config",
@@ -18,8 +22,7 @@
       "quantity": 6
     }
   ],
-  "power": 60,
-  "damageType": "NoDamage",
-  "damageKind": "default",
-  "damagePoly": [ [ -6, 0 ], [ -4, -4 ], [ 0, -8 ], [ 4, -4 ], [ 6, 0 ], [ 4, 4 ], [ 0, 8 ], [ -4, 4 ] ]
+
+  "scripts": [ "yogurtbomb.lua" ],
+  "rotationSpeed": 25
 }
