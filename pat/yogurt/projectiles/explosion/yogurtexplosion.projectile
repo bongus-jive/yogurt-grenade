@@ -11,5 +11,6 @@
   "bounces": -1,
   "knockback": 35,
   "piercing": true,
-  "damageKind": "poisonplasma"
+  "damageKind": "default",
+  "statusEffects": [ "pat_yogurtslow" ]
 }
