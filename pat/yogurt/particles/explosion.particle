@@ -19,7 +19,7 @@
       "size": 0.75,
       "initialVelocity": [ 50, 25 ],
       "destructionTime": 5,
-			"angularVelocity": 120
+      "angularVelocity": 120
     }
   }
 }
