@@ -11,6 +11,8 @@
     "timeToLive": 0.02,
     "destructionTime": 0.5,
     "destructionAction": "shrink",
+    "collidesForeground": true,
+    "collidesLiquid": false,
     "trail": true,
     "variance": {
       "timeToLive": 0.015,

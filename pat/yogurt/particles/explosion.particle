@@ -11,6 +11,7 @@
     "destructionTime": 10,
     "destructionAction": "shrink",
     "collidesForeground": true,
+    "collidesLiquid": false,
     "rotate": true,
     "trail": true,
     "layer": "middle",
