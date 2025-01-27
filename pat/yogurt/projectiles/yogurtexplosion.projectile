@@ -1,0 +1,15 @@
+{
+  "projectileName": "pat_yogurtbomb_explosion",
+  "image": "yogurtexplosion.png",
+  "flippable": true,
+  "timeToLive": 0.25,
+  "animationCycle": 0.25,
+  "animationLoops": false,
+  "frameNumber": 6,
+  "damagePoly": [ [ -45, 0 ], [ -32, -32 ], [ 0, -45 ], [ 32, -32 ], [ 45, 0 ], [ 32, 32 ], [ 0, 45 ], [ -32, 32 ] ],
+  "speed": 0,
+  "bounces": -1,
+  "knockback": 35,
+  "piercing": true,
+  "damageKind": "poisonplasma"
+}
