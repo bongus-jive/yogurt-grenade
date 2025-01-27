@@ -2,14 +2,18 @@
   "projectileName": "pat_yogurtbomb",
   "image": "yogurtbomb.png",
   "timeToLive": 4,
-  "bounces": 1,
+  "bounces": 2,
   "orientationLocked": true,
   "flippable": false,
-  "physics": "grenade",
 
   "damageType": "NoDamage",
   "damageKind": "default",
   "damagePoly": [ [ -6, 0 ], [ -4, -4 ], [ 0, -8 ], [ 4, -4 ], [ 6, 0 ], [ 4, 4 ], [ 0, 8 ], [ -4, 4 ] ],
+
+  "physics": "grenade",
+  "movementSettings": {
+    "airFriction": 0.25
+  },
 
   "actionOnReap": [
     {
@@ -20,6 +24,26 @@
       "action": "liquid",
       "liquid": "pat_yogurt",
       "quantity": 6
+    }
+  ],
+  "actionOnCollide": [
+    {
+      "action": "sound",
+      "options": [ "/sfx/projectiles/gnome_hit_stone1.ogg", "/sfx/projectiles/gnome_hit_stone2.ogg" ]
+    }
+  ],
+  "periodicActions": [
+    {
+      "time": 0,
+      "repeat": false,
+      "action": "sound",
+      "options": [ "/sfx/projectiles/throw_item.ogg" ]
+    },
+    {
+      "time": 0,
+      "action": "particle",
+      "rotate": true,
+      "specification": "pat_yogurtbomb_trail"
     }
   ],
 

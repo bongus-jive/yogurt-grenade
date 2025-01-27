@@ -1,0 +1,21 @@
+{
+  "kind": "pat_yogurtbomb_trail",
+  "definition": {
+    "type": "ember",
+    "size": 1.2,
+    "color": [ 218, 186, 210 ],
+    "position": [ 0, 0.625 ],
+    "initialVelocity": [ 0, 6 ],
+    "finalVelocity": [ 0, -60 ],
+    "approach": [ 10, 10 ],
+    "timeToLive": 0.02,
+    "destructionTime": 0.5,
+    "destructionAction": "shrink",
+    "trail": true,
+    "variance": {
+      "timeToLive": 0.015,
+      "initialVelocity": [ 2, 2 ],
+      "size": 0.3
+    }
+  }
+}

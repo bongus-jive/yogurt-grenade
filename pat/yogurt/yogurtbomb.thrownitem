@@ -16,15 +16,7 @@
 
   "projectileType": "pat_yogurtbomb",
   "projectileConfig": {
-    "speed": 45,
-    "power": 0,
-    "periodicActions": [
-      {
-        "time": 0,
-        "repeat": false,
-        "action": "sound",
-        "options": [ "/sfx/projectiles/throw_item.ogg" ]
-      }
-    ]
+    "speed": 65,
+    "power": 0
   }
 }
