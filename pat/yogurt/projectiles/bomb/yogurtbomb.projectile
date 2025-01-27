@@ -18,7 +18,7 @@
   "actionOnReap": [
     {
       "action": "config",
-      "file": "/pat/yogurt/projectiles/yogurtexplosion.config"
+      "file": "/pat/yogurt/projectiles/explosion/yogurtexplosion.config"
     },
     {
       "action": "liquid",
