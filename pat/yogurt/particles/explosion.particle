@@ -4,7 +4,6 @@
     "type": "ember",
     "size": 1.5,
     "color": [ 218, 186, 210 ],
-    "position": [ 0, 0.625 ],
     "initialVelocity": [ 0, -2 ],
     "finalVelocity": [ 0, -100 ],
     "approach": [ 10, 50 ],
@@ -17,6 +16,7 @@
     "layer": "middle",
     "variance": {
       "size": 0.75,
+      "position": [ 2, 2 ],
       "initialVelocity": [ 50, 25 ],
       "destructionTime": 5,
       "angularVelocity": 120
