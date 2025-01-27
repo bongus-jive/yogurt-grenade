@@ -19,11 +19,6 @@
     {
       "action": "config",
       "file": "/pat/yogurt/projectiles/explosion/yogurtexplosion.config"
-    },
-    {
-      "action": "liquid",
-      "liquid": "pat_yogurt",
-      "quantity": 6
     }
   ],
   "actionOnCollide": [
