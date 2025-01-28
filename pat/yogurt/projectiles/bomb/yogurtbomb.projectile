@@ -43,5 +43,8 @@
   ],
 
   "scripts": [ "yogurtbomb.lua" ],
-  "rotationSpeed": 25
+  "rotationSpeed": {
+    "mean": 20,
+    "standardDeviation": 15
+  }
 }

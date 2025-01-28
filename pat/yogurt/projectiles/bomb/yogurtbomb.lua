@@ -1,5 +1,10 @@
 function init()
-  self.rotationSpeed = config.getParameter("rotationSpeed", 20)
+  local rot = config.getParameter("rotationSpeed")
+  if type(rot) == "table" then
+    self.rotationSpeed = sb.nrand(rot.standardDeviation, rot.mean or 20)
+  else
+    self.rotationSpeed = rot
+  end
 end
 
 function update(dt)
