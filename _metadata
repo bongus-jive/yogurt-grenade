@@ -1,10 +1,11 @@
 {
-  "version" : "1.2.1",
-  "tags" : "Miscellaneous|Weapons",
   "author" : "pat",
-  "description" : "yogur\n\nthrow for yogurt\nmake at cooking staition\n\ngive me money\nhttps://www.patreon.com/pathiccstar\njoin cult\nhttps://discord.gg/GdsQSgV",
-  "name" : "pat_yogurtbomb",
+  "description" : "throw for yogurt\nmake at cooking staition",
   "friendlyName" : "yogurt grenade",
+  "link" : "steam://url/CommunityFilePage/1649393750",
+  "name" : "pat_yogurtbomb",
   "steamContentId" : "1649393750",
-  "link" : "steam://url/CommunityFilePage/1649393750"
+  "steamDescription" : "throw for yogurt\nmake at cooking station\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/yogurt-grenade",
+  "tags" : "Miscellaneous|Weapons",
+  "version" : "1.3"
 }
