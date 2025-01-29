@@ -17,6 +17,6 @@
   "projectileType": "pat_yogurtbomb",
   "projectileConfig": {
     "speed": 65,
-    "power": 0
+    "power": 30
   }
 }
