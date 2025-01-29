@@ -14,3 +14,11 @@ function update(dt)
   local rot = (mag / 180 * math.pi) * dir * dt * self.rotationSpeed
   mcontroller.setRotation(mcontroller.rotation() + rot)
 end
+
+function destroy()
+  local liq = config.getParameter("liquidOnDestroy")
+  if not liq then return end
+
+  local id = liq.id or root.liquidId(liq.name)
+  world.spawnLiquid(mcontroller.position(), id, liq.quantity)
+end

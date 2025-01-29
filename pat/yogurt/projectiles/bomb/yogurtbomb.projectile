@@ -46,5 +46,9 @@
   "rotationSpeed": {
     "mean": 20,
     "standardDeviation": 15
+  },
+  "liquidOnDestroy": { // "liquid" action doesnt work goodly
+    "name": "pat_yogurt",
+    "quantity": 10
   }
 }
