@@ -1,9 +1,22 @@
 {
   "name": "pat_yogurtslow",
-  "effectConfig": { },
   "defaultDuration": 3,
-  "scripts": [ "yogurtslow.lua" ],
+
   "animationConfig": "yogurtslow.animation",
+  "scripts": [ "yogurtslow.lua" ],
+
+  "effectConfig": {
+    "directives": "?fade=EABAE2=0.3",
+    "statModifiers": [
+      { "stat": "jumpModifier", "amount": -0.2 }
+    ],
+    "controlModifiers": {
+      "groundMovementModifier": 0.5,
+      "speedModifier": 0.65,
+      "airJumpModifier": 0.8
+    }
+  },
+
   "label": "yogurted",
   "icon": "yogurtslow.png"
 }
